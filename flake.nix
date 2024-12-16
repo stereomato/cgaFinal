@@ -26,8 +26,8 @@
 					'';
 				};
 				packages.default = pkgs.stdenv.mkDerivation {
-					name = "glTest";
-					src = ./curvSubPar.cpp;
+					name = "cgaFinal";
+					src = ./cgaFinal.cpp;
 					buildInputs = with pkgs; [
 						freeglut
 						libGL

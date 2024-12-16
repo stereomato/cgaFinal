@@ -41,7 +41,7 @@ NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackprotector strictoverflow zerocallusedregs'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /home/stereomato/Documents/Software Development/Repositories/Personal/curvSupPar/outputs/out/lib  -L/nix/store/zd989yspdhx6i4745p068mqi6kqw8cxx-freeglut-3.6.0/lib -L/nix/store/8rry6cr0rgb56qpz3axvhnwixw7pnqdb-libdrm-2.4.123/lib -L/nix/store/wqqwfrq4xsjg7lzj7sf2knvkvdy0sh24-mesa-24.2.4/lib -L/nix/store/vpys8vaqmjlzcn12wfccym7kgl7b3fr1-libglvnd-1.7.0/lib -L/nix/store/bnxczrqs9bz4m90k7w85kbbvrx79qv9a-glu-9.0.3/lib -L/nix/store/zd989yspdhx6i4745p068mqi6kqw8cxx-freeglut-3.6.0/lib -L/nix/store/8rry6cr0rgb56qpz3axvhnwixw7pnqdb-libdrm-2.4.123/lib -L/nix/store/wqqwfrq4xsjg7lzj7sf2knvkvdy0sh24-mesa-24.2.4/lib -L/nix/store/vpys8vaqmjlzcn12wfccym7kgl7b3fr1-libglvnd-1.7.0/lib -L/nix/store/bnxczrqs9bz4m90k7w85kbbvrx79qv9a-glu-9.0.3/lib'
+NIX_LDFLAGS='-rpath /home/stereomato/Documents/Software Development/Repositories/Personal/cgaFinal/outputs/out/lib  -L/nix/store/zd989yspdhx6i4745p068mqi6kqw8cxx-freeglut-3.6.0/lib -L/nix/store/8rry6cr0rgb56qpz3axvhnwixw7pnqdb-libdrm-2.4.123/lib -L/nix/store/wqqwfrq4xsjg7lzj7sf2knvkvdy0sh24-mesa-24.2.4/lib -L/nix/store/vpys8vaqmjlzcn12wfccym7kgl7b3fr1-libglvnd-1.7.0/lib -L/nix/store/bnxczrqs9bz4m90k7w85kbbvrx79qv9a-glu-9.0.3/lib -L/nix/store/zd989yspdhx6i4745p068mqi6kqw8cxx-freeglut-3.6.0/lib -L/nix/store/8rry6cr0rgb56qpz3axvhnwixw7pnqdb-libdrm-2.4.123/lib -L/nix/store/wqqwfrq4xsjg7lzj7sf2knvkvdy0sh24-mesa-24.2.4/lib -L/nix/store/vpys8vaqmjlzcn12wfccym7kgl7b3fr1-libglvnd-1.7.0/lib -L/nix/store/bnxczrqs9bz4m90k7w85kbbvrx79qv9a-glu-9.0.3/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_STORE='/nix/store'
@@ -134,7 +134,7 @@ name='nix-shell-env'
 export name
 nativeBuildInputs=''
 export nativeBuildInputs
-out='/home/stereomato/Documents/Software Development/Repositories/Personal/curvSupPar/outputs/out'
+out='/home/stereomato/Documents/Software Development/Repositories/Personal/cgaFinal/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -165,7 +165,7 @@ preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/home/stereomato/Documents/Software Development/Repositories/Personal/curvSupPar/outputs/out'
+prefix='/home/stereomato/Documents/Software Development/Repositories/Personal/cgaFinal/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs
