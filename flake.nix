@@ -57,13 +57,13 @@
 					'';
 				};
 
-				packages.help  = pkgs.stdenv.mkDerivation {
+				packages.helpGL  = pkgs.stdenv.mkDerivation {
 					name = "help";
 					src = ./help.cpp;
 					buildInputs = with pkgs; [
-						# freeglut
-						# libGL
-						# libGLU
+						freeglut
+						libGL
+						libGLU
 						#glew
 						#SDL2
 						#SDL2_image
@@ -84,7 +84,7 @@
 						ls
 						echo $src
 						mkdir -p $out/bin
-						g++ $src -o $out/bin/$name
+						g++ $src -o $out/bin/$name -lGL -lGLU -lglut
 					'';
 				};
 
